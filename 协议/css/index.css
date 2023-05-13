@@ -1,0 +1,173 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    font-family: "Helvetica Neue", -apple-system, BlinkMacSystemFont,
+        "PingFang SC", Roboto, "Microsoft YaHei", "Source Han Sans SC",
+        "Noto Sans CJK SC", "Myriad Pro", "Hiragino Sans", "Yu Gothic",
+        "Lucida Grande", sans-serif;
+}
+
+.header-wrapper {
+    background-color: #1a52f3;
+}
+
+.logo {
+    display: inline-block;
+    margin: 24px 0;
+    width: 136px;
+    height: 30px;
+}
+
+.top-content-wrapper {
+    width: 100%;
+    height: 489px;
+    background: url(../image/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.top-content-wrapper .top-content {
+    padding-top: 76px;
+}
+
+.top-content-wrapper .title {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    line-height: 48px;
+}
+
+.top-content-wrapper .subtitle {
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+    line-height: 22px;
+    opacity: 0.8;
+}
+
+.download-content {
+    margin-top: 99px;
+    margin-bottom: 56px;
+}
+
+.download-content .box {
+    position: relative;
+    display: block;
+    padding-top: 56px;
+    height: 524px;
+    text-align: center;
+    background: rgba(246, 246, 246, 1);
+    border-radius: 16px;
+}
+
+.download-content .box .title {
+    font-size: 36px;
+    font-weight: 500;
+    color: rgba(31, 33, 37, 1);
+    line-height: 36px;
+}
+
+.download-content .box .btn-wrapper {
+    margin: 20px auto 0;
+    text-align: center;
+}
+
+.download-content .box .download-btn {
+    display: inline-block;
+    width: 160px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    line-height: 50px;
+    background: rgba(97, 121, 242, 1);
+    border-radius: 25px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.download-content .box .download-btn.disable {
+    background: #919499;
+    cursor: not-allowed;
+}
+
+.download-content .box .code-wrapper {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 72px;
+    background: rgba(0, 0, 0, 0.89);
+    border-radius: 16px;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+
+.download-content .box .code-wrapper img {
+    width: 260px;
+    height: 260px;
+}
+
+.download-content .box .code-wrapper .client {
+    margin: 48px auto 16px;
+    font-size: 28px;
+}
+
+.footer-wrapper {
+    padding: 24px 0;
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    background-color: #1f2125;
+}
+
+.footer-wrapper a {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.agreement-title {
+    margin: 40px 0 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(31, 33, 37, 1);
+    line-height: 16px;
+    text-align: center;
+}
+
+.agreement-content {
+    padding-bottom: 32px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1f2125;
+    line-height: 28px;
+}
+
+.agreement-content p + p {
+    margin-top: 16px;
+}
+
+.agreement-content .important {
+    font-weight: bold;
+}
+
+.agreement-content h2{
+    font-size: 14px;
+    margin-bottom: 18px;
+}
+
+.agreement-content .list-type-none li{
+    list-style-type: none;
+}
